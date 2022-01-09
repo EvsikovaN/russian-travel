@@ -1,0 +1,16 @@
+.place__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    max-width: inherit;
+  }
+}
