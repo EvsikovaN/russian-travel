@@ -27,6 +27,5 @@
 @media screen and (max-width: 425px) {
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
-        gap: 12px;
     }
 }
